@@ -1,0 +1,433 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/bg.jpg");*/            
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: repeat;                   
+}
+
+
+
+.header_bg{
+    background-image: url(../images/backfront.jpg);
+    height: 100vh;
+    background-position: center ;
+    display: block;
+}
+
+
+.top_logo{
+     display: inline-block;
+     /*margin-left: 33%;*/
+     margin-top: 5%;
+     vertical-align: center;
+
+}
+
+
+.play_movie{
+   
+    float :left;
+    margin-left: 35%;
+
+}
+
+
+.after_movie{
+   
+    margin-right: 37%;
+    float :right;
+    margin-top: -30px ; 
+}
+
+
+p{
+    display: block;
+    font-size: 22px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: cursive;
+  
+
+}
+
+
+
+
+.movie_btn{
+    display: block;
+    padding:12px;
+    border-radius: 7px;
+    background-color: rgb(29, 228, 145);
+
+}
+
+.movie_btn:hover{
+    background-color: rgb(48, 46, 46);
+
+}
+
+
+.scroll_down{
+
+    display: inline-block;
+    margin-top: 8%;
+    padding: 12px;
+    /*font-size: 22px;*/
+    align-items: center;
+    border: 5px solid rgb(211, 211, 211);
+    border-radius: 50px;
+    background-image: url(../images/scroll\ down.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+   
+}
+
+
+.scroll_down:hover{
+
+    border-radius: 40px;
+    border-color: rgb(126, 128, 127);
+}
+
+
+.on_scroll{
+
+    /*border: 2px solid green;*/
+    width: 1200px;
+   /* background-color: seashell;*/
+    /*align-items: center;*/
+    margin-left: 5%;
+    
+}
+
+.quote_img{
+
+   /* border: 2px solid blue;*/
+    background-image: url(../images/quotes.png);
+    padding-top: 3%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5%;
+}
+
+
+
+.quote_text{
+    display: block;
+    text-decoration: none;
+    margin:5%;
+    text-align: center;
+    text-indent: 5px;
+    color: black;
+    line-height:  40px;
+    font-family: 'Times New Roman', Times, serif;
+    /*border :2px solid pink;*/
+}
+
+
+div{
+
+    align-items: center;
+    /*border: 3px solid orangered;*/
+
+    text-align: center;
+}
+
+
+.logo_minus{
+
+  
+    color: rgb(152, 155, 155);
+    padding: 10px;
+}
+
+
+.quote_author{
+
+
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: rgb(126, 128, 127) ;
+    padding-top: 10px;
+    /*border: 1px ridge slateblue;*/
+    margin-top: 10px;
+
+
+}
+
+
+.image_container{
+
+   /* background-color:rgb(255, 255, 255);*/
+    /*border: 3px double yellowgreen;*/
+   /* height: 600px;*/
+    display: block;
+    width: 1200px;
+    margin-left: 5%;
+    padding-top: 5%;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(126, 128, 127);
+    padding-bottom: 5%;
+}                                                                 
+.image_couple{
+    display: inline-block;
+    margin-top: 0.3%;
+    padding-top: 10px;
+    margin-bottom: 1%;
+}
+
+.left_image{
+
+  /*  background-image: url(../images/screenwrap_1a.jpg);*/
+   /* border: 0px dotted pink;*/
+    display: inline-block;
+    background-size: contain ;
+   /* background-color: rgb(167, 50, 50);*/
+    background-repeat: no-repeat;
+    /*float: left;*/
+    height: auto ;
+    float: left;
+    
+    
+
+}
+
+.right_image{
+    float: right;
+    display: inline-block;
+   
+}
+
+img{
+    vertical-align: top;
+   
+    /*padding-right: 1%;*/
+}
+
+img:hover{
+
+   opacity: 0.7; 
+
+    
+}
+
+
+.about_artoftext{
+    display: block;
+    width: 1200px;
+    margin-left: 5%;
+    padding-top: 5%;
+    margin-top: 25px;
+    padding-bottom: 5%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.text_toms_work{
+    display: block;
+    text-decoration: none;
+    margin:2%;
+    text-align: center;
+    text-indent: 5px;
+    color:rgb(126, 128, 127);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+
+
+}
+
+div p a{
+
+    color: rgb(7, 230, 118);
+}
+
+
+.all_images{
+    display: block;
+    
+    padding-top: 4%;
+   /* background-color: seagreen;*/
+   /* overflow-x: auto;*/
+}
+
+
+
+
+.single_section{
+   
+    display: inline-block;
+    width: 290px;
+    margin-top: 0px;
+    vertical-align: top;
+
+}
+
+.image_col{
+    width: 290px;
+    margin-top:3%;
+
+}
+
+
+.premier{
+
+    display: block;
+    
+    background-image: url(../images/premier_cover.jpg);
+    background-repeat: repeat;
+    
+    padding-top: 5%;
+    margin-top: 25px;
+    /*border-bottom: 1px solid rgb(126, 128, 127);*/
+    padding-bottom: 5%;
+    height: 450px;
+    /*border: 1px dotted yellowgreen;*/
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding-bottom: 10%;
+
+}
+
+
+.primer_logo span{
+
+    text-align: center;
+    font-size: 24pt;
+    font-stretch: wider;
+    color: rgb(82, 82, 82);
+    
+    font-variant-caps: all-petite-caps;
+
+}
+
+.minus_logo{
+
+    color: rgb(83, 87, 85);
+    width: 20px;
+}
+
+
+.primer_text{
+
+   
+    display: block;
+    text-align: center;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 5%;
+    font-style: inherit;
+
+}
+
+
+.slide_show{
+
+    margin-left: 45%;
+    margin-top: 5%;
+    padding:7px 17px;
+    box-shadow: 5px;
+    color:rgb(255, 255, 255);
+    font-size: 12pt;
+
+}
+
+
+
+
+.on_hower{
+
+    background-color:rgb(42, 42, 42);
+    height: auto;
+    border: 1px solid olive;
+}
+
+
+.hower_sec{
+
+    display: inline-block;
+    /*border: 2px dashed palevioletred;*/
+    width: 15%;
+    margin-top: 8%;
+    color: rgb(167, 168, 168);
+    padding-top: 3%;
+    align-items: center;
+    padding: 1%;
+}
+.hower_text{
+    display: block;
+    /*border:1px solid blueviolet;*/
+    padding-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hower_img{
+    display: inline;
+    width: 100%;
+    align-items: center;
+    margin-top: 25%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    /*border: 1px solid gold;*/
+    color: whitesmoke;
+}
+
+
+
+.hower_sec:hover{
+
+    color: ivory;
+    opacity: 1.0;
+}
+
+.quote_container{
+
+    /*border: 1px solid brown;*/
+    display: block;
+    align-items: center;
+}
+.qoute_sec{
+
+    border:3px solid rgb(126, 128, 127);
+    display: inline-block;
+    /*align-items: center;*/
+    width: 80%;
+    height: auto;
+    color: white;
+    margin-top: 5%;
+}
+
+
+.quotes_2x{
+
+    margin-top: 3%;
+    
+    
+}
+
+
+
+.quote_text{
+    color: rgb(126, 128, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+
+.nav_quote{
+
+    float: right;
+    margin-right: 2%;
+}
+
+.nav_quote:hover{
+
+    color: rgb(7, 230, 118);
+}
