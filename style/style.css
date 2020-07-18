@@ -402,6 +402,7 @@ div p a{
     height: auto;
     color: white;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -430,4 +431,33 @@ div p a{
 .nav_quote:hover{
 
     color: rgb(7, 230, 118);
+}
+
+
+
+.nav_top{
+
+    height :auto;
+    background-color: black;
+    display: block;
+    padding-bottom: 2%;
+
+}
+
+
+
+.scroll_up{
+
+    margin-top: 3%;
+
+}
+
+
+.fotter{
+
+
+    display: block;
+    background-image: url(../images/bg.jpg);
+    height:50%;
+    border: 1px solid olivedrab;
 }
