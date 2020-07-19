@@ -461,3 +461,30 @@ div p a{
     height:50%;
     border: 1px solid olivedrab;
 }
+
+.biblllo{
+    display: block;
+    border: 1px solid brown;
+    width:30%;
+    padding: 2%;
+    margin-top: 5%;
+    
+}
+
+.f_author{
+    display:block;
+    font-weight: 500;
+    border: 1px solid brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+
+
+.author_name{
+
+    float: left;
+    display: block;
+    border: 1px solid orange;
+}
